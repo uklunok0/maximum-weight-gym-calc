@@ -1,0 +1,1048 @@
+/* orelega-one-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Orelega One";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/orelega-one-v12-cyrillic_latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.main-wrapper {
+  min-height: 100vh;
+  width: auto;
+  align-content: center;
+  align-items: center;
+  background-color: #86bbd8;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0px;
+  height: min-content;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+}
+
+.welcome__block-wrapper {
+  align-content: center;
+  align-items: center;
+  background-color: #0b0b0b;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0px;
+  height: 100vh;
+  justify-content: center;
+  min-height: auto;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.welcome__block-text-wrapper {
+  align-content: center;
+  align-items: center;
+  background-color: #282925f5;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 5px;
+  height: min-content;
+  justify-content: center;
+  min-width: 300px;
+  overflow: hidden;
+  padding: 10px 30px;
+  border-radius: 50px;
+  position: relative;
+  width: 60%;
+  z-index: 2;
+}
+
+h1 {
+  font-family: "Orelega One";
+  color: #ff9800;
+  font-size: 4.5vw;
+  user-select: none;
+}
+
+h4.welcome__block {
+  font-family: "Orelega One";
+  color: #ebcaa2;
+  font-size: 1.5vw;
+  text-align: center;
+}
+
+.welcome__block-question-container-active {
+  margin-top: 15px;
+  padding: 5px 15px;
+  align-content: center;
+  align-items: center;
+  background-color: #34372ccc;
+  display: flex;
+  flex: none;
+  flex-wrap: nowrap;
+  height: min-content;
+  justify-content: center;
+  min-width: 200px;
+  overflow: hidden;
+  border-radius: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+h3.welcome__block-question {
+  font-family: "Orelega One";
+  color: #ebcaa2;
+  font-size: 2.5vw;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.welcome__block-button {
+  margin-top: 15px;
+  height: min-content;
+  width: min-content;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 60px;
+  flex: none;
+  z-index: 2;
+}
+
+.main-button {
+  font-family: "Orelega One";
+  color: #f99e16;
+  font-size: 2vw;
+  background-color: #282925f5;
+  padding: 10px 40px;
+  border-radius: 50px;
+}
+
+.main-button:hover,
+.main-button:active {
+  box-shadow: 1px 3px 20px 2px rgb(255 235 59 / 66%);
+  transform: scale(1.1);
+}
+
+.welcome__block-emoji-cover {
+  background-color: #99daff0f;
+  display: grid;
+  flex: none;
+  gap: 20px;
+  grid-auto-rows: min-content;
+  grid-template-columns: repeat(10, minmax(10px, 1fr));
+  grid-template-rows: repeat(20, min-content);
+  height: 101%;
+  justify-content: center;
+  left: calc(50.00000000000002% - 100% / 2);
+  overflow: hidden;
+  position: absolute;
+  top: calc(50.62500000000002% - 101.25% / 2);
+  align-content: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.welcome__block-emoji-container {
+  align-self: start;
+  aspect-ratio: 1.325 / 1;
+  flex: none;
+  justify-self: start;
+  min-width: 80px;
+  position: relative;
+  width: 100%;
+}
+
+img.biceps {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.content__wrapper {
+  align-items: center;
+  background-color: #282925f5;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0px;
+  height: auto;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: 40px 100px;
+  position: relative;
+  width: 100%;
+}
+
+.content__subwrapper {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: min-content;
+  justify-content: space-between;
+  max-width: 1000px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+.content__subwrapper-headtext {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 40px;
+  height: min-content;
+  justify-content: center;
+  max-width: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.content__subwrapper-title {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+}
+
+h2.title {
+  font-family: "Orelega One";
+  color: #ff9800;
+  font-size: 40px;
+  text-align: left;
+}
+
+.content__subwrapper-text {
+  flex: none;
+  height: auto;
+  overflow: visible;
+  position: relative;
+  white-space: normal;
+  width: 100%;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+
+h3 {
+  font-family: "Orelega One";
+  font-size: 3vh;
+  line-height: 1.3em;
+  text-align: left;
+  color: rgb(134, 187, 216);
+}
+
+.content__subwrapper-img {
+  flex: none;
+  height: 300px;
+  opacity: 0.98;
+  position: sticky;
+  top: 0;
+  width: 300px;
+  will-change: transform;
+  z-index: 1;
+}
+
+img.pepe {
+  height: 145%;
+  width: 100%;
+  object-fit: contain;
+  text-align: center;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.faq__wrapper {
+  align-items: center;
+  background-color: #86bbd8;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 40px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 40px 100px;
+  position: relative;
+  width: 100%;
+}
+
+.faq-header__container {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+  max-width: 1000px;
+  width: 100%;
+}
+
+h2.faq-header {
+  font-family: "Orelega One";
+  font-size: 40px;
+  text-align: left;
+  color: lch(41 57.45 69.45);
+}
+
+.questions__block {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 60px;
+  height: min-content;
+  justify-content: center;
+  max-width: 1000px;
+  position: relative;
+  width: 100%;
+}
+
+.questions__block-item {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  position: relative;
+  width: 1px;
+}
+
+.item__title {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+  height: auto;
+  position: relative;
+  white-space: pre-wrap;
+  width: 100%;
+}
+
+h2.faq-item__title {
+  font-family: "Orelega One";
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  text-align: left;
+}
+
+.item__content {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+  height: auto;
+  max-width: 400px;
+  position: relative;
+  overflow: visible;
+  white-space: normal;
+  width: 100%;
+}
+
+h2.faq-item__content {
+  font-family: "Orelega One";
+  font-weight: 200;
+  line-height: 1.1em;
+  text-align: left;
+  font-size: 18px;
+  color: #0c01b7;
+}
+
+.footer {
+  background: #0b0b0b;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.footer__frame {
+  background: #f99e16;
+  padding: 2px 0;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.footer__item {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.footer__pic__twitter {
+  filter: invert(80%);
+  height: 25px;
+  width: 25px;
+}
+
+.footer__pic__instagram {
+  filter: invert(80%);
+  height: 25px;
+  width: 25px;
+}
+
+.footer__pic__twitch {
+  filter: invert(80%);
+  height: 25px;
+  width: 25px;
+}
+
+.footer__pic__telegram {
+  filter: invert(80%);
+  height: 25px;
+  width: 25px;
+}
+
+.footer__text {
+  display: flex;
+  justify-content: center;
+}
+
+h3.footer__text-end {
+  font-size: 18px;
+  color: #f99e16;
+}
+
+.genderWrapper {
+  align-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 60px;
+  height: min-content;
+  justify-content: center;
+  max-width: 1000px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.gender-button {
+  font-family: "Orelega One";
+  color: #f99e16;
+  font-size: 1.5vw;
+  background-color: #282925f5;
+  padding: 10px 20px;
+  border-radius: 20px;
+  letter-spacing: -0.02em;
+  width: max-content;
+}
+
+.gender-button:hover,
+.gender-button:active {
+  box-shadow: 1px 3px 20px 2px rgb(255 235 59 / 66%);
+  transform: scale(1.1);
+}
+
+.bottom-button {
+  font-family: "Orelega One";
+  color: #f99e16;
+  font-size: 1.5vw;
+  background-color: #282925f5;
+  padding: 5px 30px;
+  border-radius: 50px;
+  letter-spacing: -0.02em;
+}
+
+.bottom-button:hover,
+.main-button:active {
+  box-shadow: 1px 3px 20px 2px rgb(255 235 59 / 66%);
+  transform: scale(1.1);
+}
+
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__dialog {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100vh;
+}
+
+.modal__content,
+.modal__content-male {
+  align-content: center;
+  align-items: center;
+  background-color: #1d140df2;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 50px;
+  position: relative;
+  width: 70%;
+  max-width: 1000px;
+  border: 2px solid #c57a0bcc;
+  border-radius: 15px;
+}
+
+.modal__content-female {
+  align-content: center;
+  align-items: center;
+  background-color: #dd5497e8;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 50px;
+  position: relative;
+  width: 70%;
+  max-width: 1000px;
+  border: 2px solid #022f05e8;
+  border-radius: 15px;
+}
+
+.modal__close,
+.modal__close-male {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 30px;
+  color: #f99e16;
+  opacity: 0.7;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.modal__close:hover,
+.modal__close-male:hover,
+.modal__close:active,
+.modal__close-male:active {
+  transform: scale(1.1);
+  rotate: 15deg;
+  color: #fabb5d;
+}
+
+.modal__close-female {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 30px;
+  color: #070501;
+  opacity: 0.7;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.modal__close-female:hover,
+.modal__close-female:active {
+  transform: scale(1.1);
+  rotate: 15deg;
+  color: #342d24;
+}
+
+.discipline__list {
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input__data-block {
+  margin-top: 30px;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.input__data-calculate {
+  width: 100%;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 35px;
+  background: #fbfce8e3;
+  box-shadow: -2px 3px 16px 3px rgba(0, 0, 0, 0.2);
+  border-width: 1px;
+  border-color: #0bafee;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: -0.05em;
+  outline: 0;
+  transition: 0.3s all;
+}
+
+h4.modal__content-text,
+h4.modal__content-text-male {
+  font-family: "Orelega One";
+  color: #f99e16;
+  font-size: 2vw;
+  line-height: 1.5;
+}
+
+h4.modal__content-text-female {
+  font-family: "Orelega One";
+  color: #000000;
+  font-size: 2vw;
+  line-height: 1.5;
+}
+
+.result__block {
+  margin-top: 40px;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculating__result {
+  font-family: "Orelega One";
+  color: #f99e16;
+  font-size: 2vw;
+}
+
+.span-male {
+  color: #f23131;
+  font-size: 3vw;
+}
+
+.span-female {
+  color: #efdefc;
+  font-size: 3vw;
+}
+
+.input__select {
+  --b1: 1 0 0;
+  box-sizing: border-box;
+  border-style: solid;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-transform: none;
+  display: inline-flex;
+  cursor: pointer;
+  user-select: none;
+  appearance: none;
+  height: 2rem;
+  min-height: 2rem;
+  padding-left: 1rem;
+  padding-right: 2.5rem;
+  font-size: 14px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #0bafee;
+  background-color: #fbfce8e3;
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
+    linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1px + 50%),
+    calc(100% - 16.1px) calc(1px + 50%);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  width: 160px;
+  height: 35px;
+}
+
+.input__select:hover,
+.input__select:active,
+.input__item:hover,
+.input__item:active {
+  box-shadow: 0px 0px 5px 0px rgb(234 216 55 / 80%);
+  background-color: #f2f3e8;
+}
+
+.result__block-note {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  margin: -10px 0;
+  max-width: 450px;
+  overflow: hidden;
+  border: 1px solid #b8e62c;
+  border-radius: 10px;
+  padding: 1px 3px 5px 5px;
+  align-self: baseline;
+}
+
+.result__data-note {
+  font-family: "Orelega One";
+  color: rgb(163 215 243);
+  font-size: 1.2vw;
+  text-align: left;
+  line-height: 1em;
+}
+
+/* adaptive */
+
+@media screen and (max-width: 786px) {
+  .input__data-calculate {
+    flex-direction: column;
+  }
+  .result__block {
+    margin-top: 20px;
+  }
+  h4.modal__content-text,
+  h4.modal__content-text-male,
+  h4.modal__content-text-female {
+    font-size: 3vw;
+    line-height: 1;
+  }
+  .result__data-note {
+    font-size: 2vw;
+  }
+  span.result__data,
+  .span-male,
+  .span-female {
+    font-size: 4.5vw;
+  }
+  h4.welcome__block {
+    font-size: 16px;
+  }
+  h3.welcome__block-question {
+    font-size: 24px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .gender-button {
+    font-size: 14px;
+  }
+  .content__wrapper {
+    padding: 40px 50px;
+  }
+  .content__subwrapper {
+    gap: 20px;
+  }
+  h2.title {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 2.8vh;
+  }
+  .bottom-button {
+    font-size: 16px;
+  }
+  h2.faq-header {
+    font-size: 32px;
+  }
+  h2.faq-item__title {
+    font-size: 2.3vh;
+  }
+  .faq__wrapper {
+    padding: 40px 40px;
+  }
+  .questions__block {
+    gap: 30px;
+  }
+  h3.footer__text-end {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .content__subwrapper {
+    display: block;
+  }
+  .bottom-button {
+    font-size: 14px;
+  }
+  h2.faq-item__title {
+    font-size: 2.4vh;
+  }
+  .questions__block {
+    gap: 20px;
+  }
+  h2.faq-item__content {
+    font-size: 16px;
+    letter-spacing: -0.03em;
+  }
+  h3.footer__text-end {
+    font-size: 20px;
+  }
+  .welcome__block-emoji-cover {
+    grid-template-columns: repeat(8, minmax(40px, 1fr));
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .faq__wrapper {
+    padding: 40px 20px;
+  }
+  .questions__block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+  }
+  .questions__block-item {
+    width: 100%;
+    overflow: auto;
+  }
+  h3.footer__text-end {
+    font-size: 20px;
+  }
+  .main-button {
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+  h4.welcome__block {
+    font-size: 14px;
+  }
+  .welcome__block-emoji-cover {
+    grid-template-columns: repeat(7, minmax(40px, 1fr));
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .result__data-note {
+    font-size: 2vw;
+  }
+  .discipline__list {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .input__select,
+  .input__item {
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+  }
+  h4.welcome__block {
+    font-size: 14px;
+  }
+  h3.welcome__block-question {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  .gender-button {
+    font-size: 12px;
+  }
+  h2.title {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 2.5vh;
+  }
+  .content__subwrapper-headtext {
+    gap: 20px;
+  }
+  h3.footer__text-end {
+    font-size: 20px;
+  }
+  .main-button {
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+  .welcome__block-emoji-cover {
+    grid-template-columns: repeat(6, minmax(40px, 1fr));
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .modal__content,
+  .modal__content-male,
+  .modal__content-female {
+    padding: 40px 20px;
+  }
+  .result__data-note {
+    font-size: 10px;
+  }
+  h4.modal__content-text,
+  h4.modal__content-text-male,
+  h4.modal__content-text-female {
+    font-size: 14px;
+    line-height: 1;
+  }
+  h3.welcome__block-question {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  .welcome__block-button {
+    gap: 40px;
+  }
+  .content__wrapper {
+    padding: 40px 20px;
+  }
+  .bottom-button {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+  .questions__block {
+    gap: 30px;
+  }
+  h2.faq-header {
+    font-size: 26px;
+  }
+  h3.footer__text-end {
+    font-size: 20px;
+  }
+  .main-button {
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+  .welcome__block-emoji-cover {
+    grid-template-columns: repeat(5.5, minmax(40px, 1fr));
+    gap: 20px;
+    column-gap: 40px;
+  }
+  .welcome__block-emoji-container {
+    aspect-ratio: 1.255 / 1;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .welcome__block-emoji-cover {
+    grid-template-columns: repeat(5, minmax(40px, 1fr));
+    gap: 10px;
+    column-gap: 20px;
+  }
+  .welcome__block-emoji-container {
+    aspect-ratio: 1.125 / 1;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .welcome__block-text-wrapper {
+    min-width: 280px;
+    padding: 10px 20px;
+  }
+  .welcome__block-wrapper {
+    padding: 20px;
+  }
+  h4.modal__content-text {
+    font-size: 14px;
+    line-height: 1.3;
+    text-align: center;
+  }
+  span.result__data,
+  .span-male,
+  .span-female {
+    font-size: 6vw;
+  }
+  h4.welcome__block {
+    font-size: 13px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+  h2.title {
+    font-size: 22px;
+  }
+  h3 {
+    font-size: 2vh;
+    line-height: 1.3;
+  }
+  .content__wrapper {
+    padding: 40px 20px;
+  }
+  h2.faq-header {
+    font-size: 22px;
+  }
+  h2.faq-item__title {
+    font-size: 2.2vh;
+  }
+  h2.faq-item__content {
+    font-size: 2vh;
+  }
+  h3.footer__text-end {
+    font-size: 20px;
+  }
+  .main-button {
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+  .welcome__block-emoji-cover {
+    grid-template-columns: repeat(5, minmax(40px, 1fr));
+    gap: 15px;
+    column-gap: 50px;
+  }
+}

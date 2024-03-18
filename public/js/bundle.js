@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./js/modules/calc.js":
-/*!****************************!*\
-  !*** ./js/modules/calc.js ***!
-  \****************************/
+/***/ "./public/js/modules/calc.js":
+/*!***********************************!*\
+  !*** ./public/js/modules/calc.js ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -195,10 +195,10 @@ function calc(sex) {
 
 /***/ }),
 
-/***/ "./js/modules/createButtons.js":
-/*!*************************************!*\
-  !*** ./js/modules/createButtons.js ***!
-  \*************************************/
+/***/ "./public/js/modules/createButtons.js":
+/*!********************************************!*\
+  !*** ./public/js/modules/createButtons.js ***!
+  \********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -207,7 +207,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   deleteMainBtn: () => (/* binding */ deleteMainBtn),
 /* harmony export */   returnToTop: () => (/* binding */ returnToTop)
 /* harmony export */ });
-/* harmony import */ var _modalWindow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modalWindow */ "./js/modules/modalWindow.js");
+/* harmony import */ var _modalWindow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modalWindow */ "./public/js/modules/modalWindow.js");
 
 function createBtnsGender() {
   return new Promise((resolve, reject) => {
@@ -302,17 +302,17 @@ function returnToTop() {
 
 /***/ }),
 
-/***/ "./js/modules/modalWindow.js":
-/*!***********************************!*\
-  !*** ./js/modules/modalWindow.js ***!
-  \***********************************/
+/***/ "./public/js/modules/modalWindow.js":
+/*!******************************************!*\
+  !*** ./public/js/modules/modalWindow.js ***!
+  \******************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   modal: () => (/* binding */ modal)
 /* harmony export */ });
-/* harmony import */ var _calc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calc */ "./js/modules/calc.js");
+/* harmony import */ var _calc__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./calc */ "./public/js/modules/calc.js");
 
 const calcObj = (0,_calc__WEBPACK_IMPORTED_MODULE_0__.calc)();
 
@@ -459,12 +459,12 @@ async function modal() {
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/*!**********************!*\
-  !*** ./js/script.js ***!
-  \**********************/
+/*!*****************************!*\
+  !*** ./public/js/script.js ***!
+  \*****************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _modules_createButtons_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/createButtons.js */ "./js/modules/createButtons.js");
-/* harmony import */ var _modules_calc_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/calc.js */ "./js/modules/calc.js");
+/* harmony import */ var _modules_createButtons_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/createButtons.js */ "./public/js/modules/createButtons.js");
+/* harmony import */ var _modules_calc_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/calc.js */ "./public/js/modules/calc.js");
 
 
 

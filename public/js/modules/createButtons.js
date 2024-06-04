@@ -2,13 +2,9 @@ import { modal } from "./modalWindow";
 export function createBtnsGender() {
   return new Promise((resolve, reject) => {
     // добавить вопросительную фразу
-    const questionContainer = document.querySelector(
-      ".welcome__block-question-container"
-    );
+    const questionContainer = document.querySelector(".welcome__block-question-container");
     if (questionContainer) {
-      questionContainer.classList.add(
-        "welcome__block-question-container-active"
-      );
+      questionContainer.classList.add("welcome__block-question-container-active");
       const titleQuestion = document.createElement("h3");
       titleQuestion.innerHTML = "Кто ты?";
       titleQuestion.classList.add("welcome__block-question");
@@ -31,9 +27,7 @@ export function createBtnsGender() {
           femaleBtn.classList.add("gender-button");
           femaleBtn.classList.add("slide-in-fwd-center"); // анимация появления кнопки №2
           document.querySelector(".welcome__block-button").appendChild(manBtn);
-          document
-            .querySelector(".welcome__block-button")
-            .appendChild(femaleBtn);
+          document.querySelector(".welcome__block-button").appendChild(femaleBtn);
 
           resolve();
         },
@@ -81,9 +75,7 @@ export function returnToTop() {
       bottomBtn.removeEventListener("click", clickHandler);
     };
     bottomBtn.addEventListener("click", clickHandler);
-    bottomBtn.addEventListener("click", () =>
-      window.scrollTo({ top: 0, behavior: "smooth" })
-    );
+    bottomBtn.addEventListener("click", () => window.scrollTo({ top: 0, behavior: "smooth" }));
   } catch (error) {
     console.error(error);
   }

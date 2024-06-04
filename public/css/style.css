@@ -4,8 +4,7 @@
   font-family: "Orelega One";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/orelega-one-v12-cyrillic_latin-regular.woff2")
-    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url("../fonts/orelega-one-v12-cyrillic_latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 html {
@@ -180,40 +179,22 @@ img.biceps {
 }
 
 .content__wrapper {
-  align-items: center;
   background-color: #282925f5;
-  display: flex;
-  flex: none;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  gap: 0px;
-  height: auto;
-  justify-content: flex-start;
-  overflow: hidden;
   padding: 40px 100px;
-  position: relative;
   width: 100%;
 }
 
 .content__subwrapper {
-  align-content: flex-start;
-  align-items: flex-start;
   display: flex;
-  flex: none;
-  flex-direction: row;
-  flex-wrap: wrap;
   height: min-content;
   justify-content: space-between;
   max-width: 1000px;
   overflow: hidden;
-  position: relative;
   width: 100%;
   z-index: 1;
 }
 
 .content__subwrapper-headtext {
-  align-content: center;
-  align-items: center;
   display: flex;
   flex: 1 0 0px;
   flex-direction: column;
@@ -223,7 +204,6 @@ img.biceps {
   justify-content: center;
   max-width: 600px;
   overflow: hidden;
-  position: relative;
 }
 
 .content__subwrapper-title {
@@ -243,10 +223,7 @@ h2.title {
 }
 
 .content__subwrapper-text {
-  flex: none;
-  height: auto;
   overflow: visible;
-  position: relative;
   white-space: normal;
   width: 100%;
   word-break: break-word;
@@ -293,7 +270,6 @@ img.pepe {
   justify-content: center;
   overflow: hidden;
   padding: 40px 100px;
-  position: relative;
   width: 100%;
 }
 
@@ -326,7 +302,6 @@ h2.faq-header {
   height: min-content;
   justify-content: center;
   max-width: 1000px;
-  position: relative;
   width: 100%;
 }
 
@@ -713,10 +688,8 @@ h4.modal__content-text-female {
   border-width: 1px;
   border-color: #0bafee;
   background-color: #fbfce8e3;
-  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%),
-    linear-gradient(135deg, currentColor 50%, transparent 50%);
-  background-position: calc(100% - 20px) calc(1px + 50%),
-    calc(100% - 16.1px) calc(1px + 50%);
+  background-image: linear-gradient(45deg, transparent 50%, currentColor 50%), linear-gradient(135deg, currentColor 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1px + 50%), calc(100% - 16.1px) calc(1px + 50%);
   background-size: 5px 5px, 5px 5px;
   background-repeat: no-repeat;
   width: 160px;

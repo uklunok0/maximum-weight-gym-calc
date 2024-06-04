@@ -18,5 +18,5 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.listen(port, () => {
-  console.log(`Сервер запущен на http://localhost:${port}. Listening...`); // Исправлен протокол в адресе
+  console.log(`Сервер запущен на http://localhost:${port}. Listening...`);
 });
